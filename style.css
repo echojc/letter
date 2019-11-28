@@ -1,0 +1,61 @@
+p {
+  line-height: 2.25rem;
+}
+
+span {
+  border-radius: .2rem;
+}
+
+.choose-valid {
+  transition: none;
+  background-color: #d9ecf7;
+  padding: .125rem .25rem;
+  border: 1px dashed #a0d7f7;
+  cursor: pointer;
+}
+
+.edit-hidden {
+  display: none;
+}
+
+.editing {
+  display: block;
+  border-top: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
+  margin: 1rem 0;
+  padding: 0.25rem;
+}
+
+.list-group-item {
+  line-height: 1.5rem;
+  cursor: pointer;
+}
+
+.edit-finish-init {
+  transition: none;
+  border-color: #72e82e;
+  background-color: #ddefc9;
+}
+
+.edit-finish {
+  transition: background-color 1s 2s, border-color 1s 2s;
+  background-color: #d9ecf7;
+  border: 1px dashed #a0d7f7;
+}
+
+input[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  display: inline;
+}
+
+input[type="text"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
